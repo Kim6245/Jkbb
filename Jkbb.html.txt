@@ -1,0 +1,77 @@
+￼
+	◦	<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jakoba Group 2024</title>
+<style>
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    animation: slideRight 5s linear infinite;
+  }
+
+  @keyframes slideRight {
+    0% { left: -100%; }
+    100% { left: 100%; }
+  }
+
+  .header h1 {
+    font-size: 36px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .animated {
+    animation: colorChange 2s infinite alternate;
+  }
+
+  @keyframes colorChange {
+    0% { color: #f00; }
+    100% { color: #00f; }
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>Jakoba Group 2024</h1>
+  </div>
+  
+  <div class="content">
+    <p>Ramhlun vengchhak KTP</p>
+    <ul>
+      <li><strong>Leader:</strong> C Lalengkima</li>
+      <li><strong>Asst. Leader:</strong> K Lalremruata</li>
+      <li><strong>Secretary:</strong> C Vanlalpeka</li>
+      <li><strong>Asst. Secretary:</strong> Jakob Lalrohluna</li>
+      <li><strong>Treasurer:</strong> Lalthakimi</li>
+      <li><strong>Finance Secretary:</strong> Lalremtluangi Sailo</li>
+    </ul>
+    <p class="animated">Tanrual hi chakna (must be animated)</p>
+  </div>
+</body>
+</html>
+
+
